@@ -198,7 +198,7 @@ footer {
 
 @media only screen and (max-width: 590px) {
   header{
-    width: 100%;
+    max-width: 100%;
     background-position: 20%;
     padding-top: 0rem;
     height: 17rem;
@@ -293,7 +293,7 @@ footer {
 
     footer {
 
-      width: 100%;
+      max-width: 100%;
       justify-content: center;
     }
 
