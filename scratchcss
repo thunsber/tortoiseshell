@@ -1,0 +1,58 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+header {
+  padding-top: 1rem;
+}
+
+header .container {
+  background-color: cadetblue;
+}
+
+.container {
+  margin: 0 auto;
+   max-width: 960px;
+  display: flex;
+}
+
+.logo {
+  display: flex;
+
+  align-items: center;
+  color: white;
+  margin: 0 auto;
+  background-color: cadetblue;
+  padding: 1rem 2rem;
+}
+
+.logo-img {
+  align-items: center;
+}
+
+.logo-img img {
+
+  height: 1.5rem;
+}
+
+.logo-img span {
+  display: inline;
+  vertical-align: middle;
+}
+
+nav {
+
+  display: flex;
+}
+
+.nav-ul {
+
+  display: flex;
+}
+
+.nav-ul li {
+  color: white;
+
+  display: flex;
+}

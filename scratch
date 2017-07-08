@@ -1,0 +1,17 @@
+<header>
+  <div class="container">
+    <div class="logo">
+      <div class="logo-img">
+        <img src="./resources/logo-white.png" alt="Tortoiseshell Optics round-rim glasses logo">
+        <span>Tortoiseshell Optics</span>
+      </div>
+      <nav>
+        <ul class="nav-ul">
+          <li>Services</li>
+          <li>Products</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+</header>

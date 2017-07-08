@@ -1,0 +1,311 @@
+html {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+header {
+  padding-top: 1rem;
+  height: 30rem;
+  background-image: url("../glasses-bg.png");
+  background-position: center;
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.container {
+  background-color: cadetblue;
+  color: white;
+  display: flex;
+  align-content: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  max-width: 960px;
+  margin:auto;
+}
+
+.logo {
+  display: flex;
+  align-items:center;
+}
+
+.logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 2rem;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav ul{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  padding-right:1rem;
+}
+
+.nav li {
+  padding-right: 1rem;
+}
+
+.phone-menu {
+  display: none;
+}
+
+h1{
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2;
+}
+.flex-banner {
+
+  margin: auto;
+  max-width: 960px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.banner {
+  position: relative;
+  left: 2rem;
+  margin-top: 10rem;
+  padding: 1.5rem 5rem;
+  background-color: white;
+}
+
+.services {
+  display:flex;
+  max-width: 960px;
+  margin: auto;
+}
+
+.icon-row {
+  padding: 3rem 0rem;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+
+}
+
+.icon-box {
+  display: flex;
+  flex-direction:column;
+  padding: 0rem 3rem;
+  height: 8rem;
+  width: 5rem;
+  justify-content: space-around;;
+  align-items: center;
+  text-align:center;
+}
+
+.icon-box img {
+  margin-bottom: 1rem;
+  width: 5rem;
+}
+
+img.paper {
+  width: 3.5rem;
+}
+
+.products {
+  max-width: 960px;
+  display: flex;
+  justify-content: flex-start;
+  margin:auto;
+}
+
+.products .philosophy {
+  width: 35%;
+  margin-left: 10%;
+}
+.products .appointments {
+  width: 35%;
+  margin-left: 5%;
+}
+
+.products h2 {
+  font-size: 1rem;
+  color: white;
+font-weight: bold;
+padding: .7rem 1.25rem;
+margin-bottom: 1rem;
+background-color: cadetblue;
+width: 10rem;
+line-height: 1rem;
+}
+
+.products span {
+  line-height: 1.35rem
+}
+
+footer {
+  max-width:960px;
+  display:flex;
+  margin: 5rem auto 0 auto;
+  background-color: azure;
+
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  padding: 4rem;
+}
+
+.footer-logo img {
+  height: 1.5rem;
+  padding-right: 1rem;
+}
+
+@media only screen and (max-width: 1024px) {
+
+  header {
+    padding-top: 0rem;
+    height: 22rem;
+    background-image: url("../glasses-bg.png");
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: cover;
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .flex-banner {
+    margin-right: 2rem;
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .banner {
+    positon: relative;
+    left:0;
+    margin-top: 5rem;
+    padding: 1rem 4rem;
+    background-color: white;
+  }
+
+  h1{
+    font-weight: bold;
+    font-size: 1.33rem;
+    line-height: 2;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  header{
+    background-position: 20%;
+    padding-top: 0rem;
+    height: 17rem;
+    }
+
+    .logo span {
+      display: none;
+    }
+
+    .nav {
+      display: none;
+    }
+
+    .phone-menu {
+      display: inherit;
+      align-items: center;
+      padding-right: 2rem;
+    }
+
+    .flex-banner {
+      margin-left: 0;
+      margin-top: 9rem;
+      display: flex;
+      flex-direction: row;;
+      width: 100%;
+    }
+
+    .banner {
+      positon: relative;
+      left:0;
+      margin-top: 0rem;
+      padding: 1rem;
+      background-color: white;
+      width: 100%;
+      text-align: center;
+    }
+
+    h1{
+      font-weight: bold;
+      font-size: 1rem;
+      line-height: 1rem;
+    }
+
+    .icon-row {
+      flex-direction: column;
+      padding: 2.23rem 0 3.77rem 0;
+    }
+
+    span {
+      font-size: 0.77rem;
+    }
+
+    .icon-box {
+      height: auto;
+    }
+
+    .icon-box span {
+      line-height: 1rem;
+
+    }
+
+    .icon-box img {
+      margin-bottom: 0rem;
+      margin: 1.54rem;
+    }
+
+    .products {
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .products h2 {
+      text-align: center;
+      width: 100%;
+    }
+
+    .products .philosophy {
+      width: 100%;
+      margin-left: 0;
+      margin-bottom: 4rem;
+    }
+
+    .products .appointments {
+      width: 100%;
+      margin-left: 0;
+    }
+
+    .products span {
+      display: block;
+      padding-left: .5rem;
+    }
+
+    footer {
+
+      max-width: auto;
+      justify-content: center;
+    }
+
+    .footer-logo span {
+      display: none;
+    }
+
+
+  }
+
+
+
+
+
+
+/**/
